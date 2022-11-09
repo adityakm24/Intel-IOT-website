@@ -411,6 +411,10 @@ em {
 
 }
 
+.ticket {
+  padding: 40px;
+}
+
 .footer {
   position: fixed;
   left: 0;
