@@ -1,0 +1,116 @@
+.card {
+    background-color: #0015ff61;
+    border-radius: 5px;
+    height: 400px;
+}
+.blog-home2 {
+    color: #ffffff;
+    font-weight: 500;
+   height: 700px;
+}
+
+.blog-home2 a.link,
+.blog-home2 h1,
+.blog-home2 h2,
+.blog-home2 h3,
+.blog-home2 h4,
+.blog-home2 h5,
+.blog-home2 h6 {
+    color: #ffffff;
+    margin:5px;
+}
+
+.blog-home2 p, .blog-home2 a {
+    font-size: 15px;
+    margin:5px;
+}
+
+.blog-home2 .font-weight-medium {
+    font-weight: 500
+}
+
+.blog-home2 .subtitle {
+    color: #8d97ad;
+    line-height: 24px
+}
+
+.blog-home2 .text-themecolor,
+.blog-home2 a.link:hover {
+    color: #3071ff;
+    font-size: 15px;
+}
+
+.blog-home2 h5 {
+    line-height: 30px;
+    font-size: 20px
+}
+
+.blog-home2 .on-hover {
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in
+}
+
+.blog-home2 .on-hover:hover {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px)
+}
+
+.blog-home2 .date-pos {
+    right: 10px;
+    top: 10px
+}
+
+.blog-home2 .date-pos span {
+    font-size: 30px;
+    line-height: 30px
+}
+
+.blog-home2 .bg-info-gradiant {
+    background: #188ef4;
+    background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0, #316ce8 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+    background: -webkit-linear-gradient(left, #188ef4 0, #316ce8 100%);
+    background: -o-linear-gradient(left, #188ef4 0, #316ce8 100%);
+    background: linear-gradient(to right, #188ef4 0, #316ce8 100%)
+}
+
+
+.teamprofilepictures {
+    width: 50%;
+    border-radius: 50%;
+    margin: 25px 0;
+    height: 200px;
+    width: 200px;
+}
+
+.teamprofileprofessions {
+    font-size: 19px;
+    color: rgb(255, 255, 255)
+}
+
+.teamprofiledescription {
+    text-align: center;
+    max-width: 85%;
+    margin: auto;
+    font-size: 15px;
+    color: rgb(255, 255, 255)
+}
+
+.teamprofileicons {
+    font-size: 30px;
+    margin: 30px 0;
+    color: rgb(255, 255, 255)
+}
+
+.teamprofilenames {
+    font-size: 25px;
+    color: rgb(255, 255, 255)
+}
+
+@media (max-width:576px) {
+    .teamprofilenames {
+        font-size: 23px
+    }
+}
